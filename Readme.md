@@ -1,66 +1,64 @@
-# 🧠 Investor Behavior Analysis – EDA Project
+#  Investor Behavior Analysis — EDA Project
 
-## 📊 Overview
-This project explores the **behavior and profiles of investors** based on a dataset of 40 individuals. It uses **Exploratory Data Analysis (EDA)** and **visualizations** to answer questions like:
+## Overview
+This project explores the behavior and financial profiles of investors based on a dataset of 40 individuals. Using Exploratory Data Analysis (EDA) and Python visualizations, it answers key questions relevant to the financial industry:
 
-    •	What are their preferred investment avenues?
+- What investment avenues do investors prefer?
+- How long do they plan to invest, and why?
+- What returns do they expect, and how does that vary by profile?
+- How frequently do they monitor their portfolios?
 
-    •	How long do they plan to invest?
+The insights generated are applicable to financial product design, client segmentation, and personal finance decision-making.
 
-    •	What profitability do they expect?
+## Project Goals
+- Identify behavioral patterns across investor age groups and risk profiles.
+- Understand the relationship between investment horizon, expected return, and preferred asset class.
+- Categorize investors by strategy: conservative, moderate, and aggressive.
+- Communicate findings through clear, business-ready visualizations.
 
-    •	How frequently do they monitor their 
-    investments?
+## Tools and Technologies
 
-The analysis provides insights useful for both **personal finance decision-making** and professionals in the **financial industry**.
+- Python — pandas, NumPy
+- Visualization — Matplotlib, Seaborn
+- Environment — Jupyter Notebook
 
-## 🎯 Project Goals
+## Dataset Description
 
-    •	Understand investor behavior across different age groups and genders.
+| Feature | Description |
+|:-------- | :---------- |
+| Gender | Male/Female |
+| Age    | Investor's age group |
+| Investment Period | Time Horizont: Short ,medium or long term |
+| Monitory Frequency | How often the investor reviews their portfolio |
+| Expect Return | Anticipated rate of return (%) |
+| Investment Avenues | Preferred asset: mutual funds, equity, bonds, fixed deposits, gold |
+| invesment Objectives | Motivation: retirement, wealth creation, education, etc. |
 
-    •	Identify common patterns in investment periods, expected returns, and avenues.
+## Key Findings
 
-    •	Categorize investors by strategy: conservative, aggressive, etc.
+- 93% of surveyed investors actively use structured investment avenues rather than keeping savings idle.
+- Gold is the most common asset held, reflecting a strong preference for safe, tangible assets.
+- Short-term investors monitor their portfolios daily and concentrate in equity, suggesting higher risk tolerance.
+- Medium-term investors expect 20–30% annual returns and favor mutual funds as a balance between risk and growth.
+- Long-term investors review weekly and also prefer mutual funds, prioritizing steady compounding over short-term gains.
 
-    •	Visualize data to reveal trends using Python (Matplotlib & Seaborn).
+## Visualizations
 
-## 🛠️ Tools & Technologies
+- Pie charts showing distribution of preferred investment avenues.
+- Bar plots comparing age groups against expected return ranges.
+- Subplot grids showing monitoring frequency versus investment duration by gender.
 
-    •	Python (Pandas, NumPy)
-    •	Data Visualization: Matplotlib, Seaborn
-    •	Jupyter Notebook
+## How to Run
 
+- Clone this repository: git clone https://github.com/kfun1008/Finance_behavior.git
+- Install dependencies: pip install pandas numpy matplotlib seaborn
+- Open the notebook: jupyter notebook
+- Run all cells in order.
 
-## 🧪 Data Description
+## Author
+### Carlos Mario Aguado Rodríguez
 
-| Feature  | Description |
-|----------|-------------|
-|Gender    |Male/Female|
-|Age       |Investor’s age group|
-|Investment Period|Time horizon (short/medium/long)|
-|Monitoring Frequency|How often investments are reviewed|
-|Expected Return|Anticipated rate of return|
-|Investment Avenues|Preferred method: mutual funds, equity, bonds, fixed deposits|
-|Investment Objectives|Why they invest (retirement, wealth, etc.)|
+Business Administrator transitioning into Data Analytics. Interested in the intersection of finance, agriculture, and data-driven decision-making. Currently building skills in SQL, Python, and Power BI.
 
-## 🔍 Key Findings
-
-    • 93% of investors use investment avenues.
-    • Most investors have invested in gold, indicating a preference for safe assets.
-    • Short-term investors monitor investments daily and prefer equity.
-    • Medium-term investors expect 20–30% returns, and prefer mutual funds.
-    • Long-term investors check their investments weekly and also favor mutual funds.
-
-## 📈 Sample Visualizations
-
-    •	Pie charts showing investment avenue preferences.
-    •	Bar plots comparing age vs. expected returns.
-    •	Subplots showing frequency of monitoring vs. investment duration.
-
-# 💼 Author
-
-**Carlos Mario Aguado Rodríguez**
-
-Business Administrator | Finance Enthusiast | Data Explorer
 
 
